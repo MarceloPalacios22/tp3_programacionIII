@@ -6,6 +6,27 @@
     <title>Ejercicio 1</title>
 </head>
 <body>
-    
+    <h1>CALCULADORA</h1>
+
+    <form id="formulario" >
+        <label for="numero1">PRIMER NUMERO:</label>
+        <input id="numero1" type="number" required><br><br>
+
+        <label for="numero2">SEGUNDO NUMERO:</label>
+        <input id="numero2" type="number" required><br><br>
+
+        <label for="operacion">OPERACION:</label>
+        <select id="operacion">
+            <option value="suma">SUMA</option>
+            <option value="resta">RESTA</option>
+            <option value="multiplicacion">MULTIPLICACION</option>
+            <option value="division">DIVISION</option>
+        </select><br><br>
+
+       <input type="submit" id="calcular">
+    </form>
+
+    <p id="resultado"></p>
 </body>
+<script src="script.js"></script>
 </html>
